@@ -9,7 +9,7 @@ from openai import OpenAI
 
 
 # 高德地图API密钥
-amap_key="09dc2b27d3e30de637b17ebb7671e412"
+amap_key="09dc2b27d3e30de637b17ebb767sdda88"
 
 def get_location_coordinate(location, city="广州"):
     #用于查询某个地点的地理坐标
@@ -91,7 +91,7 @@ def llm_function_calling(messages):
     """
     client = OpenAI(
         # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
-        api_key="sk-d5ed06050cf44bd29d04511273dda219",
+        api_key="sk-d5ed06050cf44bd29d04511273ddaadfa",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
     )
 
